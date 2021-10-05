@@ -13,15 +13,17 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url('/css/app.css') }}" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-    <div id="app">
-        <div class="sidebar" id="sidebar">
+    <div id="app" class="row d-md-flex justify-content-md-between">
+        <div class="sidebar col-md-2" id="sidebar">
             <a href="#" class="sidebar-brand">
-                <img src="#" alt="Warranty & Service Portal" width="140" height="74">
+            <img src="{{url('/img/Voyager_Logo.png') }}" alt="Warranty & Service Portal" width="200" height="74">
             </a>
             <nav class="sidebar-nav nav">
                 <ul class="nav flex-column">
@@ -67,7 +69,7 @@
                 </ul>
             </nav>
         </div> <!-- sidebar end -->
-        <main class="main">
+        <main class="main col-md-10">
             @yield('content')
         </main>
     </div> 
