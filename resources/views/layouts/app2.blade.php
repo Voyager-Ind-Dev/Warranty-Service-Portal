@@ -20,6 +20,9 @@
 <body>
     <div id="app">
         <div class="sidebar" id="sidebar">
+            <a href="#" class="sidebar-brand">
+                <img src="#" alt="Warranty & Service Portal" width="140" height="74">
+            </a>
             <nav class="sidebar-nav nav">
                 <ul class="nav flex-column">
                     <li class="nav-item">
@@ -63,12 +66,9 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div> <!-- sidebar end -->
         <main class="main">
-            <div class="container">
-                @yield('content')
-            </div>
+            @yield('content')
         </main>
-    </div>
-
+    </div> 
 </body> 
