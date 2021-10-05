@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,43 +23,43 @@
             <nav class="sidebar-nav nav">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vin Services</a>
+                        <a class="nav-link" href="#">VIN SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Internal Service Queue</a>
+                        <a class="nav-link" href="#">INTERNAL SERVICE QUEUE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">External Service Queue</a>
+                        <a class="nav-link" href="#">EXTERNAL SERVICE QUEUE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Internal Parts Order Dashboard</a>
+                        <a class="nav-link" href="#">INTERNAL PARTS ORDER DASH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Replacement Part Order</a>
+                        <a class="nav-link" href="#">REPLACEMENT PARTS ORDER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Notifications</a>
+                        <a class="nav-link" href="#">NOTIFICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Current TSBs & Recalls</a>
+                        <a class="nav-link" href="#">CURRENT TSB & RECALLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Build TSB/Recall</a>
+                        <a class="nav-link" href="#">BUILD TSB OR RECALL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Admin</a>
+                        <a class="nav-link" href="#">ADMIN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Account</a>
+                        <a class="nav-link" href="#">MY ACCOUNT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Users</a>
+                        <a class="nav-link" href="#">USERS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Log Off</a>
+                        <a class="nav-link" href="#">LOG OFF</a>
                     </li>
                 </ul>
             </nav>
