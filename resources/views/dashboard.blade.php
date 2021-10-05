@@ -8,7 +8,7 @@
     <section>
         <div class="row">
             <div class="col-md-4">
-                <div class="card stat-card text-center">
+                <div class="card stat-card">
                     <h3>4</h3>
                     <h5>OPEN SERVICE TICKETS</h5>
                     <div clas="btn-row">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card stat-card text-center">
+                <div class="card stat-card">
                     <h3>8</h3>
                     <h5>OPEN WARRANTY CLAIMS</h5>
                     <div clas="btn-row">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card stat-card text-center">
+                <div class="card stat-card">
                     <h3>5</h3>
                     <h5>OPEN PARTS ORDERS</h5>
                     <div clas="btn-row">
@@ -39,10 +39,10 @@
     <section>
         <div class="row">
             <div class="col-md-6">
-                <h2>Recent Updates on Tickets</h2>
+                <h2 class="h1 mb-4">Recent Updates on Tickets</h2>
             </div>
             <div class="col-md-6">
-                <h2>Recent Notifications</h2>
+                <h2 class="h1 mb-4">Recent Notifications</h2>
             </div>
         </div>
         <div class="row">
@@ -50,10 +50,38 @@
                 <ul class="list-unstyled">
                     <li class="ticket-update">
                         <div class="details">
-                            <a href="#"><strong">#248763</strong></a>
+                            <a href="#"><strong>#248763</strong></a>
                             <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
                         </div>
-                        <div class="date"></div>
+                        <div class="date">Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date">Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date">Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date">Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date">Oct 5th, 2021</div>
                     </li>
                 </ul>
             </div>
@@ -64,7 +92,35 @@
                             <a href="#"><strong>#248763</strong></a>
                             <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
                         </div>
-                        <div class="date"></div>
+                        <div class="date"> Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date"> Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date"> Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date"> Oct 5th, 2021</div>
+                    </li>
+                    <li class="ticket-update">
+                        <div class="details">
+                            <a href="#"><strong>#248763</strong></a>
+                            <span class="action"><strong>Status set to Approved by Carrie Obright</strong></span>
+                        </div>
+                        <div class="date"> Oct 5th, 2021</div>
                     </li>
                 </ul>
             </div>

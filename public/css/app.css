@@ -1,13 +1,25 @@
 body{
     color: #3e4d56;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     line-height: 1.6;
 }
 
-.ticket-update li{
-    box-shadow: 0 3px 15px 0;
+.container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.ticket-update {
+    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 15%);
     background: #fff;
     padding: 20px 30px;
     margin-bottom: 15px;
@@ -15,9 +27,96 @@ body{
     justify-content: space-between;
 }
 
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sidebar .nav{
+    margin: 15px 0;
+}
+
 .sidebar .nav .nav-link{
     padding: 8px 30px;
     text-transform: uppercase;
     font-weight: 700;
     color: #3e4d56;
+}
+
+.main {
+    padding: 30px;
+    /* margin-left: 240px; */
+    min-height: calc(100vh -54px);
+    background-color: #eceef3;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 30px;
+}
+
+.stat-card h3 {
+    margin: 0 0 10px;
+    color: #074D83;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: .8em;
+    letter-spacing: -.05em;
+}
+
+.stat-card h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0;
+    border: 0;
+}
+
+.btn-row .btn {
+    margin-bottom: 3px;
+}
+
+.btn-secondary {
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: #545b62;
+}
+
+.btn-secondary:hover{
+    background-color: #24313a;
+}
+
+.h1, h1{
+    font-weight: 300;
+    font-size: 2.25rem;
+    line-height: 1.2;
+}
+
+.h2, h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    text-align: center;
+}
+
+a {
+    color: #1E9FCF;
+}
+
+a:hover {
+    color: #24313a;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #1E9FCF;
 }
