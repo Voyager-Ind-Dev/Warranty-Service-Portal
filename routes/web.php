@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\controllers\HomeController;
 use App\Http\Controllers\DashController;
+use App\Http\Controllers\VinController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/testhome',[DashController::class, 'index']);
+
+Route::get('/vin',[VinController::class, 'index']);
